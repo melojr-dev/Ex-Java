@@ -1,0 +1,20 @@
+1)
+Encapsulamento é esconder os dados dentro de uma classe e só permitir acesso a eles por meio de métodos específicos.
+Information Hiding é esconder como a classe funciona por dentro, mostrando apenas o que é necessário para usá-la.
+Importância
+Segurança: Protege os dados.
+Facilidade de Manutenção: Permite mudanças sem quebrar o código.
+Simplicidade: Torna o uso mais fácil e claro.
+
+-
+
+2)
+-A exemplo disso temos a public, que é uma vertente publica e acessível.
+-A private é acessada somente dentro da classe que ela foi inserida.
+-Protected é acecssada em sua propria classe ou em subclasses.
+-Sem modificador de acesso a visibilidade é só vista dentro do pacote
+
+3)
+-Para explicar o princípio da separação de responsabilidades:
+ Pense em uma empresa. Cada departamento, como Recursos Humanos, Marketing e Finanças, tem uma função específica e não mistura tarefas com outros departamentos. Dentro de cada departamento, cada pessoa realiza uma tarefa definida, como preparar relatórios ou gerenciar pagamentos. Especialistas cuidam de suas áreas específicas, garantindo eficiência e organização.
+ Resumo: Assim como em uma empresa, onde cada área tem uma responsabilidade clara, no código cada classe e método deve ter uma função específica para manter o sistema organizado e eficiente.
